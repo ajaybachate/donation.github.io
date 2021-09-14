@@ -14,6 +14,6 @@ window.onload = () => {
     timeline.fromTo(discription, 0.5, { opacity: 0 }, { opacity: 1 });
     timeline.fromTo(payButton, 0.5, { opacity: 0 }, { opacity: 1 });
     setInterval(function() {
-        window.location.replace("./thankyou.html")
-    }, 60000)
+        window.location.replace("./thankYou.html")
+    }, 100000)
 }
