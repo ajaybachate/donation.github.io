@@ -15,5 +15,5 @@ window.onload = () => {
     timeline.fromTo(payButton, 0.5, { opacity: 0 }, { opacity: 1 });
     setInterval(function() {
         window.location.replace("./thankyou.html")
-    }, 1000)
+    }, 60000)
 }
