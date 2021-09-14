@@ -6,32 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="donation.css">
-    <link rel="stylesheet" href="thankyou.css">
-    <title>Thank You!</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/donation.css">
+   
+    <title>Donate</title>
 </head>
 
 <body>
 
-    <main>
+    <div class="donation-page">
         <div class="form">
-            <div class="image"></div>
-            <h1 class="payment-success">
-                Payment Successful!
+
+            <h1 class="heading">
+                Lets Make A Change !
             </h1>
 
-            <h3 class="payment-discription">
-                Thank You for bringing a smile!
-            </h3>
+            <div class="discription">
+                <h3>
+                    “We make a living by what we get, <br> but we make a life by what we give.” <br>Winston Churchill
+                </h3>
+            </div>
 
-            <h5 class="redirecting">Redirecting ... </h5>
+            <form class="payment-success">
+                <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_Hwy9utCtbuXx7k" async></script>
+            </form>
         </div>
-    </main>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous"></script>
-    <script src="thankyou.js"></script>
-</body>
+    
 
+</body>
+<script src="./js/donationAnimation.js"></script>
 </html>

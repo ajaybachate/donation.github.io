@@ -15,6 +15,6 @@ window.onload = () => {
     timeline.fromTo(redirect, 0.5, { opacity: 0 }, { opacity: 1 }, 2);
 
     setInterval(function() {
-        window.location.replace("index.html")
+        window.location.replace("./index.html")
     }, 8000)
 }
