@@ -16,6 +16,9 @@ nav {
     background-color: rgba(20, 33, 61, 0.3);
     position: relative;
 }
+#name{
+color: white;
+}
 
 header {
     width: 100%;
